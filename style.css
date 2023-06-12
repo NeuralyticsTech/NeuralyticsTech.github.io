@@ -1,0 +1,129 @@
+/* You can use this file to customize the style of your site */
+
+/* You can use variables to store colors, fonts, or other values that you want to reuse */
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --background-color: #f8f9fa;
+  --font-family: Arial, sans-serif;
+}
+
+/* You can use selectors to target specific elements or classes of elements */
+/* For example, this selector targets all elements */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* This selector targets the container class */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* This selector targets the header element */
+.header {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* This selector targets the h1 element inside the header element */
+.header h1 {
+  font-family: var(--font-family);
+  font-size: 36px;
+}
+
+/* This selector targets the p element inside the header element */
+.header p {
+  font-family: var(--font-family);
+  font-size: 18px;
+}
+
+/* This selector targets the nav element inside the header element */
+.header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* This selector targets the ul element inside the nav element */
+.header nav ul {
+  list-style: none;
+}
+
+/* This selector targets the li element inside the ul element */
+.header nav ul li {
+  display: inline-block;
+  margin: 10px;
+}
+
+/* This selector targets the a element inside the li element */
+.header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* This selector targets the a element inside the li element when it is hovered over */
+.header nav ul li a:hover {
+  color: var(--secondary-color);
+}
+
+/* This selector targets the main element */
+.main {
+  background-color: var(--background-color);
+  padding: 20px;
+}
+
+/* This selector targets the h2 element inside the main element */
+.main h2 {
+  font-family: var(--font-family);
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* This selector targets the p element inside the main element */
+.main p {
+  font-family: var(--font-family);
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* This selector targets the ul element inside the main element */
+.main ul {
+  list-style: none;
+}
+
+/* This selector targets the li element inside the ul element */
+.main ul li {
+  font-family: var(--font-family);
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* This selector targets the a element inside the li element */
+.main ul li a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+/* This selector targets the a element inside the li element when it is hovered over */
+.main ul li a:hover {
+  color: var(--secondary-color);
+}
+
+/* This selector targets the footer element */
+.footer {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* This selector targets the p element inside the footer element */
+.footer p {
+  font-family: var(--font-family);
+  font-size: 14px;
+}
